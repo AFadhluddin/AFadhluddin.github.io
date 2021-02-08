@@ -3,6 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I'm an MSci Theoretical Physics Student at UCL. I'm interested in the use of Applied Mathematics in multiple areas such as Finance and Computer Science. 
+Currently, I’m researching the use of Kinetic Network Models to investigate the spread of the Covid-19 and analysing how the model reacts to government intervention techniques. 
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+In the past I have taken part in research internships such as “Using Scientific Computing Methods to investigate Anti-perovskites structures in cathode materials” and also financial internships such as “Mergers and Acquisitions Advisory.” 
