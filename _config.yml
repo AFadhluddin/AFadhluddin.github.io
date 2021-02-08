@@ -16,11 +16,14 @@
 title: "Welcome to Ahmed's Website"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello, Im Ahmed. Im a current Theoretical Physics student at UCL. I plan on using this webiste to post things im interested in, projects Im working
-  on and random stuff.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  Hello, I'm Ahmed. I'm a current Theoretical Physics student at UCL. I plan on using this webiste to post things im interested in, projects I'm working
+  on and random stuff. I am interested in the use of Applied Mathematics in multiple areas such as Finance and Computer Science. In the past I have taken 
+  part in research internships such as “Using Scientific Computing Methods to investigate Anti-perovskites structures in cathode materials” and also 
+  financial internships such as “Mergers and Acquisitions Advisory.”
+
+#twitter_username: username
+github_username: AFadhluddin
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -57,34 +60,43 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Ahmed Fadhluddin"
   avatar : "/assets/images/Ahmed_FOC_Portrait.JPG"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Theoretical Physics Student at UCl. Interested in the use of Applied Mathematics in areas such as Finance and Computer Science"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://afadhluddin.github.io/about/"
+    #- label: "Twitter"
+      #icon: "fab fa-fw fa-twitter-square"
+      #url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/AFadhluddin"
+    #- label: "Instagram"
+      #icon: "fab fa-fw fa-instagram"
+      #url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/ahmed-fadhluddin/" 
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://afadhluddin.github.io/about/"
+    #- label: "Twitter"
+      #icon: "fab fa-fw fa-twitter-square"
+      #url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/AFadhluddin"
+    #- label: "Instagram"
+      #icon: "fab fa-fw fa-instagram"
+      #url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/ahmed-fadhluddin/"
 
 defaults:
   # _posts
