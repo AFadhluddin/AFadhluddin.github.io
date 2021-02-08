@@ -62,7 +62,7 @@ plugins:
 author:
   name   : "Ahmed Fadhluddin"
   avatar : "/assets/images/Ahmed_FOC_Portrait.JPG"
-  bio    : "Theoretical Physics Student at UCl. Interested in the use of Applied Mathematics in areas such as Finance and Computer Science"
+  bio    : "Theoretical Physics student at UCL. Interested in the use of Applied Mathematics in areas such as Finance and Computer Science"
   location: "London, United Kingdom"
   links:
     - label: "Website"
