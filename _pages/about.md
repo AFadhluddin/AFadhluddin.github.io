@@ -3,7 +3,8 @@ permalink: /about/
 title: "About"
 ---
 
-I'm an MSci Theoretical Physics Student at UCL. I'm interested in the use of Applied Mathematics in multiple areas such as Finance and Computer Science. 
-Currently, I’m researching the use of Kinetic Network Models to investigate the spread of the Covid-19 and analysing how the model reacts to government intervention techniques. 
+I'm an MSci Theoretical Physics student at UCL. I'm interested in the use of quantitative methods in multiple areas such as Finance and Computer Science. 
 
-In the past I have taken part in research internships such as “Using Scientific Computing Methods to investigate Anti-perovskites structures in cathode materials” and also financial internships such as “Mergers and Acquisitions Advisory.” 
+Currently, for my masters thesis, I am researching Markov Models in Enhanced Sampling Method; I am looking at improving the enchances sampling methods.
+
+In the past I have taken part in a research internship at the Faraday Institute investigating different anti-perovskites structures in cathode materials and also quantitative trading strategy intern at Rokos Capital Management.
