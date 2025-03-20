@@ -16,10 +16,8 @@
 title: "Hello!"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  "Hello, I'm Ahmed. I'm a current Theoretical Physics student at UCL. I plan on using this webiste to post things im interested in, projects I'm working"
-  "on and random stuff. I am interested in the use of Applied Mathematics in multiple areas such as Finance and Computer Science. In the past I have taken"
-  "part in research internships such as “Using Scientific Computing Methods to investigate Anti-perovskites structures in cathode materials” and also" 
-  "financial internships such as “Mergers and Acquisitions Advisory.”"
+  "Theoretical Physics grad who ended up in finance/trading. Love diving into maths, philosophy, and figuring out how things work."
+  "Always keen to learn new stuff and tackle interesting problems."
 
 #twitter_username: username
 github_username: AFadhluddin
