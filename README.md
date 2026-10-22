@@ -29,6 +29,7 @@ The link checker uses Python's standard library. It checks local routes and frag
 - Homepage copy: `_includes/introduction.html`. `/about/` reuses it, so the two cannot drift.
 - Name, portrait and social links: `_data/profile.yml`.
 - Research titles, full authors, summaries and source links: `_data/research.yml`. See `docs/research-sources.md` for verification and status provenance.
+- Unpublished research titles, dates and availability: `_data/unpublished_research.yml`.
 - Projects: `_pages/projects.html`.
 - Navigation: `_data/navigation.yml`.
 - Typography and layout: `assets/css/main.css`.

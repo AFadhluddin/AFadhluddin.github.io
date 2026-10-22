@@ -1,7 +1,7 @@
 ---
 title: Research
 permalink: /research/
-description: Research preprints on Markov state models and molecular dynamics, co-authored by Ahmed Fadhluddin.
+description: Research by Ahmed Fadhluddin, including preprints on Markov state models and unpublished work on COVID-19 spread and antiperovskite cathode materials.
 ---
 <p>My research background is in theoretical physics and chemistry. I have a master’s in theoretical physics from {% include organisation.html id="ucl" %}, and spent a university internship researching theoretical chemistry at the {% include organisation.html id="faraday" %}.</p>
 <p>I’m a co-author of the two preprints below. Both are currently under review for publication.</p>
@@ -15,5 +15,13 @@ description: Research preprints on Markov state models and molecular dynamics, c
     <p class="authors">{{ paper.authors }}</p>
   </details>
   <div class="paper-links">{% for link in paper.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</div>
+</section>
+{% endfor %}
+{% for work in site.data.unpublished_research %}
+<section class="entry" aria-labelledby="unpublished-{{ forloop.index }}">
+  <p class="status">Unpublished research{% if work.date %} · {{ work.date }}{% endif %}</p>
+  <h2 id="unpublished-{{ forloop.index }}">{{ work.title }}</h2>
+  {% if work.organisation %}<p>Research from my internship at the {% include organisation.html id=work.organisation %}.</p>{% endif %}
+  <p>{{ work.availability }}</p>
 </section>
 {% endfor %}
