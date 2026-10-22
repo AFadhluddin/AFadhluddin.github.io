@@ -32,7 +32,7 @@ for path in root.rglob('*.html'):
     page.feed(text)
     pages[path.resolve()] = page
     if not all([page.title, page.description, page.main, page.h1]): errors.append(f'{path}: missing page structure/metadata')
-    if len(page.canonical) != 1 or not page.canonical[0].startswith('https://afadhluddin.github.io/'): errors.append(f'{path}: invalid canonical')
+    if len(page.canonical) != 1 or not page.canonical[0].startswith('https://ahmedfadhluddin.com/'): errors.append(f'{path}: invalid canonical')
     if 'Theoretical Physics student' in text: errors.append(f'{path}: obsolete shared biography')
     for img in page.images:
         if not all(k in img for k in ['alt', 'width', 'height']): errors.append(f'{path}: image missing accessibility/dimensions')

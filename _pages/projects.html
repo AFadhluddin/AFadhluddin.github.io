@@ -1,14 +1,34 @@
 ---
 title: Projects
 permalink: /projects/
-description: Two independently built projects, from a working oscilloscope at 15 to a self-hosted systematic trading operation.
+description: Projects by Ahmed Fadhluddin, spanning systematic trading, numerical simulation, GPU computing and hardware.
 ---
-<p>I’ve always liked working across hardware and software. These two projects capture that best.</p>
+<p>I’ve always liked working across hardware and software. These projects span systematic trading, numerical computing at university, and an early hardware build.</p>
 <section class="entry" aria-labelledby="trading">
   <p class="status">During university</p>
   <h2 id="trading">Crypto stat arb trading</h2>
   <p>I built and ran a fully systematic cryptocurrency statistical arbitrage strategy. I developed and operated the trading software, built my own physical server, and hosted my own local Git infrastructure.</p>
   <p>It was an independently operated, self-hosted system. I owned the work end to end, from the machine it ran on to the code that kept it running. I shut it down before starting my full-time quant role.</p>
+</section>
+<section class="entry" aria-labelledby="heat-diffusion">
+  <p class="status">During university</p>
+  <h2 id="heat-diffusion">Simulating Heat Diffusion with Explicit and Implicit Numerical Methods</h2>
+  <p>I simulated heat diffusion across a square plate using forward and backward Euler methods. CPU and CUDA implementations explored how grid resolution and time step affect stability, accuracy and runtime when estimating the time for the plate’s centre to reach a target temperature.</p>
+</section>
+<section class="entry" aria-labelledby="sparse-matrix">
+  <p class="status">During university</p>
+  <h2 id="sparse-matrix">Sparse Matrix–Vector Multiplication on GPUs</h2>
+  <p>I investigated how sparse matrix storage formats affect GPU computation, implementing conversion from CSR to ELLPACK-R and developing CPU and CUDA multiplication routines. I benchmarked performance and numerical accuracy on Poisson matrices and Matrix Market examples.</p>
+</section>
+<section class="entry" aria-labelledby="poisson-equation">
+  <p class="status">During university</p>
+  <h2 id="poisson-equation">Solving the Poisson Equation on CPUs and GPUs</h2>
+  <p>I solved the two-dimensional Poisson equation using sparse finite differences and iterative Jacobi methods. I compared CPU and CUDA implementations against an analytical solution to examine accuracy and convergence as the computational grid was refined.</p>
+</section>
+<section class="entry" aria-labelledby="matrix-multiplication">
+  <p class="status">During university</p>
+  <h2 id="matrix-multiplication">Optimising Matrix Multiplication with JIT Compilation and Parallel Computing</h2>
+  <p>I studied dense matrix multiplication using Python, NumPy and Numba. Benchmarks explored how just-in-time compilation, CPU parallelisation, memory layout and cache blocking affect performance across different matrix sizes.</p>
 </section>
 <section class="entry" aria-labelledby="oscilloscope">
   <p class="status">Age 15</p>

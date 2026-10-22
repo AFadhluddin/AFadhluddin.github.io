@@ -47,7 +47,7 @@ Use `{% include organisation.html id="jump" %}` in HTML or Markdown prose. Names
 
 ## GitHub Pages deployment
 
-The original repository uses Jekyll at the repository root, with no custom workflow. Its public default branch is `master` and GitHub reports Pages enabled. This redesign retains that build model, the domain `https://afadhluddin.github.io`, an empty `baseurl`, the existing post permalink pattern and only GitHub Pages-supported plugins (`jekyll-feed`, `jekyll-sitemap`). Local Jekyll and plugin versions match GitHub Pages' published versions. Dependencies are locked for reproducibility.
+The original repository uses Jekyll at the repository root, with no custom workflow. Its public default branch is `master` and GitHub reports Pages enabled. This redesign retains that build model, the custom domain `https://ahmedfadhluddin.com`, an empty `baseurl`, the existing post permalink pattern and only GitHub Pages-supported plugins (`jekyll-feed`, `jekyll-sitemap`). Local Jekyll and plugin versions match GitHub Pages' published versions. Dependencies are locked for reproducibility.
 
 Work is on `redesign/editorial-personal-site`. **No merge, push or deployment has been performed.** After explicit approval, review and merge the branch into the configured publishing branch. Confirm Settings → Pages uses the intended branch/root; the authenticated Pages settings could not be inspected in this session. GitHub Pages will build the root Jekyll source normally. Do not commit `_site/` or `vendor/`.
 
@@ -60,3 +60,10 @@ The implementation uses original copy and layout code, with narrow navigation, a
 Screenshots and verification notes are in `docs/`. The local browser checks used installed Google Chrome through a temporary Playwright installation; no Node dependency is required to build or serve the website.
 
 Review screenshots: [desktop](docs/screenshots/home-1440.png), [tablet](docs/screenshots/home-768.png), [mobile](docs/screenshots/home-390.png). Full checks and external-access limitations: [verification notes](docs/verification.md).
+
+
+## Custom domain
+
+`CNAME` contains `ahmedfadhluddin.com`; `_config.yml` uses its HTTPS URL for canonical links, social metadata, feed and sitemap. Set the same custom domain in GitHub Settings → Pages before pointing DNS at GitHub. Publish the configuration changes through the normal branch/PR process.
+
+At the DNS provider, set four apex (`@`) A records to `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`. Set `www` as a CNAME to `afadhluddin.github.io`. Replace conflicting website records; retain mail and verification records. Enable Enforce HTTPS in Pages once the certificate is ready.
