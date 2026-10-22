@@ -1,3 +1,3 @@
 {%- assign org = site.data.organisations[include.id] -%}
 {%- assign logo = site.static_files | where: 'path', org.logo | first -%}
-<span class="organisation">{% if logo %}<img class="organisation-logo{% if org.dark_background %} organisation-logo--dark{% endif %}" src="{{ org.logo | relative_url }}" width="{{ org.width }}" height="{{ org.height }}" alt="" aria-hidden="true" decoding="async">{% endif %}{{ org.name | escape }}</span>
+<span class="organisation">{% if logo %}<img class="organisation-logo{% if include.logo_only %} organisation-logo--only{% endif %}{% if org.dark_background %} organisation-logo--dark{% endif %}" src="{{ org.logo | relative_url }}" width="{{ org.width }}" height="{{ org.height }}" {% if include.logo_only %}alt="{{ org.name | escape }}"{% else %}alt="" aria-hidden="true"{% endif %} decoding="async">{% endif %}{% unless include.logo_only and logo %}{{ org.name | escape }}{% endunless %}</span>

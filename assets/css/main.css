@@ -20,6 +20,7 @@ p { margin: 0 0 24px; }
 .portrait { display: block; width: 124px; height: auto; border-radius: 7px; }
 .organisation { color: var(--ink); white-space: nowrap; }
 .organisation-logo { height: 18px; width: auto; vertical-align: -.18em; margin-right: 5px; object-fit: contain; }
+.organisation-logo--only { margin-right: 0; }
 .organisation-logo--dark { background: #252b36; border-radius: 3px; }
 .further-reading { margin-top: 32px; }
 .footer { display: flex; gap: 20px; border-top: 1px solid var(--line); padding-top: 20px; margin-top: 32px; font-size: 14px; }
