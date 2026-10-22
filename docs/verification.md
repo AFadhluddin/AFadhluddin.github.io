@@ -18,8 +18,7 @@ Real installed Google Chrome, controlled through Playwright with an isolated tem
 - Full-page screenshots saved for the homepage, Research, Projects and historical article at 1440, 768 and 390px.
 - Portrait keeps the supplied square framing, at 124px desktop / 112px mobile; mobile navigation is horizontal.
 - All eight official organisation marks load beside readable names. Images are decorative to screen readers and have explicit intrinsic dimensions.
-- Inspected desktop/mobile screenshots against the rendered reference homepage and article. The reference's main text column measured 647px with 16px type and 27.2px line-height; this design uses a 650px column with the same body size and line-height, adapting the heading/portrait arrangement to Ahmed's introduction.
-- Reference article embeds had some rendering failures on the reference website; the text column, headings, spacing and navigation remained inspectable.
+- Inspected desktop and mobile screenshots. The design uses a 650px reading column, 16px body type and 27.2px line-height, with a responsive portrait and introduction.
 
 Raw local checks: `browser-results.json`. Browser script: `scripts/browser_check.cjs`. To rerun, install Playwright in a temporary tools directory, start Jekyll, then invoke the script with `NODE_PATH` pointing at that tools directory's `node_modules`. It uses installed Chrome and does not add runtime dependencies to the website.
 

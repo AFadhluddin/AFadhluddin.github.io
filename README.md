@@ -54,7 +54,7 @@ Work is on `redesign/editorial-personal-site`. **No merge, push or deployment ha
 
 The custom layouts replace Minimal Mistakes completely; no theme code or assets were copied. Historical post text is retained. No theme licence file existed in the original checkout, and there is no retained theme code requiring bundled attribution. Organisation trademarks remain their owners' property.
 
-Visual references: [Matthew Vogas's homepage](https://matthewvogas.com/) and [article layout](https://matthewvogas.com/blog/16-year-old-teacher-app). The implementation uses original copy and layout code, adapting the narrow navigation, readable measure and restrained typography to Ahmed's portrait and biography.
+The implementation uses original copy and layout code, with narrow navigation, a readable text column and restrained typography around Ahmed's portrait and biography.
 
 Screenshots and verification notes are in `docs/`. The local browser checks used installed Google Chrome through a temporary Playwright installation; no Node dependency is required to build or serve the website.
 
