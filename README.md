@@ -43,7 +43,7 @@ The supplied `ahmed profille photo.jpeg` has been optimised into `assets/images/
 
 Use `{% include organisation.html id="jump" %}` in HTML or Markdown prose. Names, paths and intrinsic dimensions are in `_data/organisations.yml`; actual files live in `assets/logos/`. Keep dimensions accurate, proportions intact and source colours unchanged. The include checks whether the configured file exists and gracefully shows just the text if it does not. Decorative logo images have empty alt text because the visible organisation name is already accessible.
 
-`stealth` intentionally displays **Stealth**, using the supplied Argo mark. Its `dark_background` setting provides contrast for the white artwork. No company website is inferred. All eight requested logos are supplied locally; no replacement is required. Provenance is recorded in `docs/asset-sources.md`.
+`argo` displays the literal label **&lt;hidden name&gt;**, using the supplied company mark. Its `dark_background` setting provides contrast for the white artwork. No company website is inferred. All eight requested logos are supplied locally; no replacement is required. Provenance is recorded in `docs/asset-sources.md`.
 
 ## GitHub Pages deployment
 

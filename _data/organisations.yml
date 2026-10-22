@@ -1,7 +1,7 @@
 # Logos are local, official site brand marks (see docs/asset-sources.md).
 # A missing/empty logo path gracefully renders the organisation name alone.
-stealth:
-  name: Stealth
+argo:
+  name: "<hidden name>"
   logo: /assets/logos/argo.png
   width: 96
   height: 96
