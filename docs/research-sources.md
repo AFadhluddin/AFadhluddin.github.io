@@ -8,3 +8,5 @@ Checked 22 October 2026. These are **two distinct preprints**, both listing Ahme
 Content and source URLs are in `_data/research.yml`. Recheck publication status before changing the preprint labels.
 
 Two additional unpublished research entries in `_data/unpublished_research.yml` were supplied directly by Ahmed: “Kinetic Network Analysis of COVID-19 Spread and Government Intervention in the UK” (July 2021), and “Role of Cation Identity in Local Order in Li2MOS Antiperovskite Cathode Materials” (Faraday Institution internship research; no date supplied). Papers and posters are available upon request. These entries are not presented as preprints under review or published papers; no authorship lists, findings or download links have been inferred.
+
+Short descriptions summarise the abstract and poster text subsequently supplied by Ahmed. The COVID-19 findings are explicitly limited to modelled scenarios. The cathode summary distinguishes the predicted stabilisation from the potential voltage improvement, which requires further validation. Historical student biography in the poster is not reused as current site copy.

@@ -1,7 +1,9 @@
-# Titles, date and availability supplied by Ahmed; no publication status implied.
+# Titles, summaries, date and availability supplied by Ahmed; unpublished work.
 - title: "Kinetic Network Analysis of COVID-19 Spread and Government Intervention in the UK"
   date: July 2021
+  description: "A stochastic kinetic network model of COVID-19 spread, calibrated to UK government data and incorporating different types of social contact. Simulations explored lockdowns, school closures, masks and vaccination, finding reduced transmission and, in some modelled scenarios, elimination of infection within the network."
   availability: Papers and posters available upon request.
 - title: "Role of Cation Identity in Local Order in Li2MOS Antiperovskite Cathode Materials"
   organisation: faraday
+  description: "DFT calculations and cluster expansion were used to study mixed iron–nickel Li2MOS antiperovskite cathodes. The results suggest that mixing entropy can stabilise nickel-rich compositions, potentially combining improved stability with higher voltage. The voltage benefit remains to be verified through further modelling and experiments."
   availability: Papers and posters available upon request.
