@@ -1,0 +1,17 @@
+<header class="introduction">
+  <div>
+    <h1>{{ site.data.profile.name }}</h1>
+    <p>I’m the co-founder and CTO of {% include organisation.html id="stealth" %}, a stealth AI infrastructure and compute startup.</p>
+  </div>
+  {% assign portrait = site.data.profile.portrait %}
+  <img class="portrait" src="{{ portrait.path | relative_url }}" width="{{ portrait.width }}" height="{{ portrait.height }}" alt="{{ portrait.alt }}" fetchpriority="high">
+</header>
+<div class="prose biography">
+  <p>Previously, I was a quant researcher at {% include organisation.html id="jump" %}, working on energy derivatives and helping build out its European energy trading business.</p>
+  <p>Before that, I was a quant researcher in energy trading at {% include organisation.html id="bam" %}, in the firm’s top-performing pod during my tenure.</p>
+  <p>I have a master’s in theoretical physics from {% include organisation.html id="ucl" %} and I’m a co-author of <a href="{{ '/research/' | relative_url }}">two research preprints</a>, currently under review. During university, I interned as a quantitative researcher at {% include organisation.html id="rokos" %} and as a theoretical chemistry researcher at the {% include organisation.html id="faraday" %}.</p>
+  <p>At university, I also built and ran a fully systematic crypto statistical arbitrage strategy, owning the stack from the trading software to the physical server and self-hosted Git infrastructure.</p>
+  <p>Before university, I worked as a hardware engineer, building PCs and repairing motherboards and printed circuit boards. That included contract work supporting companies such as {% include organisation.html id="man" %} and {% include organisation.html id="liquidnet" %}.</p>
+  <p>I started with hardware. At 15, I built an oscilloscope from scratch, assembling the electronics and writing the Arduino/C code to make it work.</p>
+  <p class="further-reading">More on my <a href="{{ '/research/' | relative_url }}">research</a> and <a href="{{ '/projects/' | relative_url }}">projects</a>.</p>
+</div>

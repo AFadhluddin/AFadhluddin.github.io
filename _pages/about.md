@@ -1,6 +1,7 @@
 ---
+layout: default
 permalink: /about/
-title: "About"
+nav: Me
+title: About
 ---
-
-Theoretical Physics grad who ended up in finance/trading. Love diving into maths, philosophy, and figuring out how things work. Always keen to learn new stuff and tackle interesting problems.
+{% include introduction.html %}

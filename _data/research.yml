@@ -1,0 +1,16 @@
+- title: "LiveCoMS Roundtable: Discussing Markov state models after two decades of development v1.0"
+  authors: "Daniel M. Zuckerman, Gregory R. Bowman, Amedeo Caflisch, Aaron R. Dinner, Ahmed Fadhluddin, Giuseppe Giangreco, Xuhui Huang, Bettina G. Keller, Stefan Klus, Feliks Nüske, Michael O’Connor, Edina Rosta, Christof Schütte, Gerhard Stock, Vincent Voelz, Jonathan Weare, Antonia S.J.S. Mey"
+  date: October 2026
+  description: "A roundtable on using Markov state models to interpret molecular dynamics simulations. Researchers offer distinct perspectives on best practices, limitations and extensions of the framework, rather than a single consensus view."
+  links:
+    - label: Read on arXiv
+      url: https://arxiv.org/abs/2610.24144
+  metadata_source: https://arxiv.org/abs/2610.24144
+- title: "Objective-Dependent Biasing of Markov Networks for Relaxation and First Passage"
+  authors: "Qingying Wang, Ahmed Fadhluddin, Edina Rosta"
+  date: July 2026
+  description: "An investigation of how bias potentials affect molecular transition kinetics in Markov networks. The work compares biases designed for global relaxation with those targeting a specific transition, and examines how acceleration changes reaction pathways."
+  links:
+    - label: Read on ChemRxiv
+      url: https://chemrxiv.org/doi/full/10.26434/chemrxiv.15006429/v1
+  metadata_source: https://api.crossref.org/works/10.26434/chemrxiv.15006429/v1

@@ -1,0 +1,11 @@
+name: Ahmed Fadhluddin
+portrait:
+  path: /assets/images/ahmed.jpg
+  width: 400
+  height: 400
+  alt: Ahmed Fadhluddin
+social:
+  - name: GitHub
+    url: https://github.com/AFadhluddin
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/ahmed-fadhluddin/

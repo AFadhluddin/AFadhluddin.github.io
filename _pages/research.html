@@ -1,0 +1,19 @@
+---
+title: Research
+permalink: /research/
+description: Research preprints on Markov state models and molecular dynamics, co-authored by Ahmed Fadhluddin.
+---
+<p>My research background is in theoretical physics and chemistry. I have a master’s in theoretical physics from {% include organisation.html id="ucl" %}, and spent a university internship researching theoretical chemistry at the {% include organisation.html id="faraday" %}.</p>
+<p>I’m a co-author of the two preprints below. Both are currently under review for publication.</p>
+{% for paper in site.data.research %}
+<section class="entry" aria-labelledby="paper-{{ forloop.index }}">
+  <p class="status">Preprint · {{ paper.date }}</p>
+  <h2 id="paper-{{ forloop.index }}">{{ paper.title }}</h2>
+  <p>{{ paper.description }}</p>
+  <details>
+    <summary>All authors</summary>
+    <p class="authors">{{ paper.authors }}</p>
+  </details>
+  <div class="paper-links">{% for link in paper.links %}<a href="{{ link.url }}">{{ link.label }}</a>{% endfor %}</div>
+</section>
+{% endfor %}

@@ -1,17 +1,12 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
-
-gem "tzinfo-data"
-gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-  gem "jekyll-paginate"
-  gem "jekyll-sitemap"
-  gem "jekyll-gist"
-  gem "jekyll-feed"
-  gem "jemoji"
-  gem "jekyll-include-cache"
-  gem "jekyll-algolia"
-end
+# Jekyll 3.10 is the GitHub Pages build version. Only Pages-supported plugins.
+gem "jekyll", "~> 3.10.0"
+gem "jekyll-feed", "~> 0.17.0"
+gem "jekyll-sitemap", "~> 1.4"
+gem "webrick", "~> 1.8"
+# Standard libraries extracted from Ruby in newer releases.
+gem "csv"
+gem "base64"
+gem "bigdecimal"
+gem "kramdown-parser-gfm", "~> 1.1"
