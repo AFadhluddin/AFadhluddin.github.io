@@ -1,0 +1,9 @@
+name: Ahmed Fadhluddin
+portrait:
+  path: /assets/images/ahmed.jpg
+  width: 400
+  height: 400
+  alt: Ahmed Fadhluddin
+social:
+  - name: LinkedIn
+    url: https://www.linkedin.com/in/ahmed-fadhluddin/

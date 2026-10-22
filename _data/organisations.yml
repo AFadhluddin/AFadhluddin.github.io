@@ -1,0 +1,43 @@
+# Logos are local, official site brand marks (see docs/asset-sources.md).
+# A missing/empty logo path gracefully renders the organisation name alone.
+stealth:
+  name: Stealth
+  logo: /assets/logos/argo.png
+  width: 96
+  height: 96
+  dark_background: true
+jump:
+  name: Jump Trading
+  logo: /assets/logos/jump.png
+  width: 32
+  height: 32
+bam:
+  name: Balyasny Asset Management
+  logo: /assets/logos/bam.png
+  width: 64
+  height: 64
+ucl:
+  name: UCL
+  logo: /assets/logos/ucl.png
+  width: 256
+  height: 256
+rokos:
+  name: Rokos Capital Management
+  logo: /assets/logos/rokos.png
+  width: 20
+  height: 20
+faraday:
+  name: Faraday Institution
+  logo: /assets/logos/faraday.png
+  width: 180
+  height: 180
+man:
+  name: Man Group
+  logo: /assets/logos/man.png
+  width: 48
+  height: 48
+liquidnet:
+  name: Liquidnet
+  logo: /assets/logos/liquidnet.png
+  width: 32
+  height: 32
