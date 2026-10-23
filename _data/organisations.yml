@@ -1,5 +1,10 @@
 # Logos are local, official site brand marks (see docs/asset-sources.md).
 # A missing/empty logo path gracefully renders the organisation name alone.
+optiver:
+  name: Optiver
+  logo: /assets/logos/optiver.png
+  width: 192
+  height: 192
 argo:
   name: "the company"
   logo: /assets/logos/argo.png

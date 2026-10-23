@@ -4,6 +4,7 @@ Retrieved 22 October 2026. All brand marks are stored locally and used only to i
 
 | Local asset | Source |
 | --- | --- |
+| `assets/logos/optiver.png` | https://optiver.com/favicon/favicon.png (official site icon; retrieved 23 October 2026) |
 | `assets/images/ahmed.jpg` | User-supplied `ahmed profille photo.jpeg`; orientation normalised, optimised JPEG, original square framing retained |
 | `assets/logos/argo.png` | User-supplied `argo logo .png`; resized to 96px, unchanged proportions/colours; dark CSS backing makes the supplied white mark visible |
 | `assets/logos/jump.png` | https://www.jumptrading.com/cdn/68af4da447dcf4db12fcb35f/68af4da447dcf4db12fcb4c2_favicon-32x32.png |
